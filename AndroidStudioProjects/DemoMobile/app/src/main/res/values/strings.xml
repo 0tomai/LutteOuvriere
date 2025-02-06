@@ -1,0 +1,14 @@
+<resources>
+        <string name="app_name">DemoMobile</string>
+        <string name="menu_language">Francais</string>
+        <string name="hello">Bonjour</string>
+        <string name="picture">Photo</string>
+        <string name="page">Page</string>
+        <string name="location_button">Emplacement</string>
+        <string name="back_button">Retour</string>
+        <string name="permission_denied">Permission de localisation refusée</string>
+        <string name="weather_info">Température : %1$.1f°C\nPrécipitations : %2$.1f%%\nCouverture nuageuse : %3$.1f%%\nVent : %4$.1f km/h\nDirection du vent : %5$.1f°</string>
+        <string name="location_format">Latitude: %.4f, Longitude: %.4f</string>
+        <string name="location_unavailable">La localisation n\'est pas disponible.</string>
+        <string name="location_error">Erreur de localisation: %1$s</string>
+</resources>

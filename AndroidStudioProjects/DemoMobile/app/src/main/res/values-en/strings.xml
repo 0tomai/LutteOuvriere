@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">DemoMobile</string>
+    <string name="menu_language">French</string>
+    <string name="hello">Hello</string>
+    <string name="picture">Picture</string>
+    <string name="page">Page</string>
+    <string name="location_button">Location</string>
+    <string name="back_button">Back</string>
+    <string name="permission_denied">Location permission denied</string>
+    <string name="weather_info">Temperature: %1$.1f°C\nPrecipitation: %2$.1f%%\nCloud cover: %3$.1f%%\nWind: %4$.1f km/h\nWind direction: %5$.1f°</string>
+    <string name="location_format">Latitude: %.4f, Longitude: %.4f</string>
+    <string name="location_unavailable">Location not available.</string>
+    <string name="location_error">Location error: %1$s</string>
+</resources>
