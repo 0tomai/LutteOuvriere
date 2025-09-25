@@ -37,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
                 case 4:
                     tab.setText("Mensuel");
                     break;
+                case 5:
+                    tab.setText("CLT");
+                    break;
             }
         }).attach();
     }

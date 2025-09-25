@@ -37,6 +37,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, ArticleActivity.class);
             intent.putExtra("article_link", article.getLink());
+            intent.putExtra("article_title", article.getTitle()); // Ajouter le titre
             context.startActivity(intent);
         });
     }
