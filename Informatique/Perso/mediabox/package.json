@@ -1,0 +1,10 @@
+{
+  "name": "mediabox",
+  "version": "1.0.0",
+  "description": "Local Netflix-like media server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
