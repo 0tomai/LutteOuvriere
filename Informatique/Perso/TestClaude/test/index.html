@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Recettes - Accueil</title>
+    <meta name="description" content="Gérez vos recettes de cuisine facilement">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff6b6b">
+</head>
+<body>
+    <!-- Skip link pour l'accessibilité -->
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+    <header role="banner">
+        <nav role="navigation" aria-label="Navigation principale">
+            <div class="logo">🍳 Mes Recettes</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active" aria-current="page">Accueil</a></li>
+                <li><a href="recipes.html">Recettes</a></li>
+                <li><a href="add.html">Ajouter</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="dark-mode-toggle" aria-label="Basculer le mode sombre">🌙 Mode sombre</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" class="home" role="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <h1 id="hero-title">Bienvenue sur Mes Recettes</h1>
+            <p>Découvrez, partagez et sauvegardez vos meilleures recettes de cuisine</p>
+            <a href="recipes.html" class="btn-primary">Voir les recettes</a>
+        </section>
+
+        <section class="featured" aria-labelledby="featured-title">
+            <h2 id="featured-title">Dernières recettes ajoutées</h2>
+            <div id="recent-recipes" class="recipe-grid" role="list"></div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Mes Recettes - Tous droits réservés</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
